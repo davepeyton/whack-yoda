@@ -8,4 +8,7 @@
 ### There are four levels, each level more challenging the the previous. You have 3 lives to complete each level.
 # Game Play <br>
 ### You have to whack as many baby yoda’s as you can within a 10 second time limit. As you progress through the levels the baby yoda’s will pop up faster making each level more challenging than the previous. <br> You have three lives to complete each level. Each time you miss a baby yoda you loose a life. 
-#
+<br>
+# Creation Process <br>
+### I wrote some html to get some structure on the game. <br> 
+After I had all the html code written I check the code through a validator!. All good .
