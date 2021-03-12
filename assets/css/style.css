@@ -68,3 +68,11 @@ body {
     outline: none;
 }
 
+.game {
+    width: 600px;
+    height: 400px;
+    margin: 70px auto;
+    z-index: 250;
+    display: flex;
+    flex-wrap: wrap;
+}
