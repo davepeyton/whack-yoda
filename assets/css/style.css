@@ -44,3 +44,27 @@ body {
     border-radius: 5px;
 }
 
+.countdown {
+    position: absolute;
+    top: 490px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.startButton {
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+    transform: translate(-50%, 0);
+    background: rgb(184, 3, 3);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    z-index: 200;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
