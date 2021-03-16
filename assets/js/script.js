@@ -8,3 +8,36 @@ let timeUp = false;
 let timeLimit = 10000;
 let score = 0;
 let countdown;
+
+function pickRandomHole(holes) {
+    const randomHole = Math.floor(Math.random() * holes.length);
+    const hole = holes[randomHole];
+    if (hole === lastHole) {
+        return pickRandomHole(hole);
+    }
+    lastHole = hole;
+    return hole;
+}
+
+function popOut() {
+    const time = Math.random() * 1400 + 400;
+    const hole = pickRandomHole(holes);
+    hole.classList.add('up');
+    setTimeout(function() {
+        hole.classList.remove('up');
+        if (!timeUp) popOut();
+    }, time);
+}
+
+popOut();
+
+function startGame() {
+    countdown = 10;
+    scoreBoard.getElementsByClassName.display = 'block';
+    countdownBoard.textContent = countdown;
+    timeUp = false;
+    popOut();
+    setTimeout(function() {
+        timeUp = true;
+    }, 10);
+}
