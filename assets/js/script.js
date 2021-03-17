@@ -56,3 +56,12 @@ let startCountdown = setInterval(function() {
 }, 1000);
 
 startButton.addEventListener('click', startGame);
+
+function whack(e) {
+    score++;
+    this.style.backgroundImage = 'url("/..yoda2.png")';
+    setTimeout(() => {
+        this.style.backgroundImage = 'url("..yoda1.png")';
+    }, 800);
+}
+yodas.forEach(yoda => yoda.addEventListener('click', whack));
