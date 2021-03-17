@@ -1,7 +1,8 @@
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const yodas = document.querySelectorAll('.yoda');
-const countdownBoard = document.querySelector('.startButton');
+const countdownBoard = document.querySelector('.countdown');
+const startButton = document.querySelector('.startButton')
 
 let lastHole;
 let timeUp = false;
@@ -34,10 +35,24 @@ popOut();
 function startGame() {
     countdown = 10;
     scoreBoard.textContent = 0;
+    scoreBoard.getElementsByClassName.display = 'block;'
     countdownBoard.textContent = countdown;
     timeUp = false;
+    score = 0;
     popOut();
     setTimeout(function() {
         timeUp = true;
     }, 10);
 }
+
+let startCountdown = setInterval(function() {
+    countdown -= 1;
+    countdownBoard.textContent = countdown;
+    if (countdown < 0) {
+        countdown = 0;
+        clearInterval(startCountdown);
+        countdownBoard.textContent = 'Time is Up! Try Again';
+    }
+}, 1000);
+
+startButton.addEventListener('click', startGame);
