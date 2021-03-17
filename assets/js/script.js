@@ -33,7 +33,7 @@ popOut();
 
 function startGame() {
     countdown = 10;
-    scoreBoard.getElementsByClassName.display = 'block';
+    scoreBoard.textContent = 0;
     countdownBoard.textContent = countdown;
     timeUp = false;
     popOut();
