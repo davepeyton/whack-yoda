@@ -8,7 +8,10 @@ const cursor = document.querySelector('.cursor img');
 window.addEventListener('mousemove', (e) => {
     cursor.style.top = e.pageY + 'px';
     cursor.style.left = e.pageX + 'px';
-console.log(e);
+
+    window.addEventListener('click',() => {
+        cursor.style.animation = 'hit 0.1s ease';
+    });
 });
 
 let lastHole;

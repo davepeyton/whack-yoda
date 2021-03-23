@@ -25,6 +25,15 @@ z-index: 2;
 
 }
 
+@keyframes hit {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+transform: rotate(-130deg);
+    }
+}
+
 .wrapper {
     border: 5px solid rgb(138, 4, 4);
     width: 800px;
