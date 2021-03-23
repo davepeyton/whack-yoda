@@ -20,7 +20,7 @@ window.addEventListener('mousemove', (e) => {
 
 let lastHole;
 let timeUp = false;
-let timeLimit = 10000;
+let timeLimit = 20000;
 let score = 0;
 let countdown;
 
@@ -28,33 +28,33 @@ function pickRandomHole(holes) {
     const randomHole = Math.floor(Math.random() * holes.length);
     const hole = holes[randomHole];
     if (hole === lastHole) {
-        return pickRandomHole(hole);
+        return pickRandomHole(holes);
     }
     lastHole = hole;
     return hole;
 }
 
-function popOut() {
-    const time = Math.random() * 1000 + 100;
+function yodaPopUp() {
+    const time = Math.random() * 1300 + 400;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function() {
         hole.classList.remove('up');
-        if (!timeUp) popOut();
+        if (!timeUp) yodaPopUp();
     }, time);
 }
 
 function startGame() {
-    countdown = 20;
+    countdown = timeLimit/1000;
     scoreBoard.textContent = 0;
     scoreBoard.display = 'block';
     countdownBoard.textContent = countdown;
     timeUp = false;
     score = 0;
-    popOut();
+    yodaPopUp();
     setTimeout(function() {
         timeUp = true;
-    }, 20);
+    }, timeLimit);
 
     let startCountdown = setInterval(function(){
 countdown -= 1;
@@ -71,7 +71,9 @@ startBtn.addEventListener('click', startGame);
 function whack(e) {
     score++;
     this.style.backgroundImage = 'url("assets/images/yoda2.png")';
-    setTimeout(function(){}, 800);
+    setTimeout(function(){
+        this.style.backgroundImage = 'url("assets/images/yoda1.png")';
+    }, 600);
 }
 yodas.forEach(yoda => yoda.addEventListener('click', whack));
 
