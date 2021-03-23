@@ -12,6 +12,9 @@ window.addEventListener('mousemove', (e) => {
 
     window.addEventListener('click',() => {
         cursor.style.animation = 'hit 0.1s ease';
+        setTimeout(() =>{
+            cursor.style.removeProperty("animation");
+        }, 100);
     });
 });
 
@@ -32,7 +35,7 @@ function pickRandomHole(holes) {
 }
 
 function popOut() {
-    const time = Math.random() * 1200 + 200;
+    const time = Math.random() * 1000 + 100;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function() {
@@ -61,7 +64,7 @@ if (countdown < 0) {
     clearInterval(startCountdown);
     countdownBoard.textContent = 'Your time is UP!!';
 }
-    }, 20000);
+    }, 1000);
 }
 startBtn.addEventListener('click', startGame);
 
