@@ -2,7 +2,8 @@ const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const yodas = document.querySelectorAll('.yoda');
 const countdownBoard = document.querySelector('.countdown');
-const startButton = document.querySelector('.startButton')
+const startButton = document.querySelector('.startButton');
+const lightSaber = document.querySelector('.lightSaber');
 
 let lastHole;
 let timeUp = false;
