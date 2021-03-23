@@ -3,7 +3,7 @@ const scoreBoard = document.querySelector('.score');
 const yodas = document.querySelectorAll('.yoda');
 const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
-const lightSaber = document.querySelector('.lightSaber');
+const cursor = document.querySelector('.cursor img');
 
 window.addEventListener('mousemove', (e) => {
     cursor.style.top = e.pageY + 'px';
