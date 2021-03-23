@@ -19,15 +19,13 @@ html {
 position: absolute;
 height: 100px;
 width: 50px;
-transform: translate( -50%, -50%);
-cursor: none;
 z-index: 2;
-
+transform: translate( -50%, -50%);
 }
 
 @keyframes hit {
     from {
-        transform: rotate(0deg);
+        transform: rotate(-0deg);
     }
     to {
 transform: rotate(-110deg);
@@ -39,9 +37,9 @@ transform: rotate(-110deg);
     width: 800px;
     height: 600px;
     position: absolute;
+    transform: translate( -50%, -50%);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-image: url('../images/background.png');
     overflow: hidden;
 }
@@ -50,10 +48,10 @@ transform: rotate(-110deg);
     font-size: 150px;
     color: rgb(216, 205, 205);
     position: absolute;
+    transform: translate( -50%, -50%);
     text-align: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 200px;
     height: 100px;
     
