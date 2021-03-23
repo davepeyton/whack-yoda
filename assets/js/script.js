@@ -5,6 +5,12 @@ const countdownBoard = document.querySelector('.countdown');
 const startButton = document.querySelector('.startButton');
 const lightSaber = document.querySelector('.lightSaber');
 
+window.addEventListener('mousemove', (e) => {
+    cursor.style.top = e.pageY + 'px';
+    cursor.style.left = e.pageX + 'px';
+console.log(e);
+});
+
 let lastHole;
 let timeUp = false;
 let timeLimit = 10000;
