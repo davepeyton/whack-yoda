@@ -9,6 +9,17 @@
 # Design
 <br>
 
+### I used JavaScript basics to target elments.
+### :: forEach.
+### :: querySelector() + qs All.
+### :: Math.floor and random.
+### :: 'return' Keyword.
+### :: if statments.
+### :: class.Listremove and add.
+### :: setTimeout and setIntervals and clearInterals.
+<br>
+
+
 ### Colour Scheme
 ### Typography
 ### Imagery 
