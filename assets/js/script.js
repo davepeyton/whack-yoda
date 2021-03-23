@@ -71,9 +71,12 @@ startBtn.addEventListener('click', startGame);
 function whack(e) {
     score++;
     this.style.backgroundImage = 'url("assets/images/yoda2.png")';
-    setTimeout(function(){
+    this.style.pointerEvents = 'none';
+    setTimeout(() => {
         this.style.backgroundImage = 'url("assets/images/yoda1.png")';
+        this.style.pointerEvents = 'all';
     }, 600);
+    scoreBoard.textContent =score;
 }
 yodas.forEach(yoda => yoda.addEventListener('click', whack));
 
