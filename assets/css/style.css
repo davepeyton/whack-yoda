@@ -9,12 +9,20 @@ body {
     display: flex;
     justify-content: center;
 }
+/*
+html {
+    cursor: url('/assets/images/lightsaber.png'), auto;
+}
+*/
 
 .cursor img {
 position: absolute;
+cursor: none;
 height: 100px;
 width: 50px;
-z-index: 2px;
+transform: translate(-50px, -50px);
+z-index: 2;
+
 }
 
 .wrapper {
