@@ -17,6 +17,7 @@
 ### :: if statments.
 ### :: class.Listremove and add.
 ### :: setTimeout and setIntervals and clearInterals.
+### :: ES6 Arrow functions and regular functions.
 <br>
 
 

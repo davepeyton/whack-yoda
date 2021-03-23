@@ -2,12 +2,13 @@ const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const yodas = document.querySelectorAll('.yoda');
 const countdownBoard = document.querySelector('.countdown');
-const startButton = document.querySelector('.startButton');
+const startBtn = document.querySelector('.startBtn');
 const cursor = document.querySelector('.cursor img');
 
 window.addEventListener('mousemove', (e) => {
-    cursor.style.top = e.pageY + 'px';
-    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = `${e.pageY}px`;
+    cursor.style.left = `${e.pageX}px`;
+    cursor.nodeName;
 
     window.addEventListener('click',() => {
         cursor.style.animation = 'hit 0.1s ease';
@@ -31,7 +32,7 @@ function pickRandomHole(holes) {
 }
 
 function popOut() {
-    const time = Math.random() * 1400 + 400;
+    const time = Math.random() * 1200 + 200;
     const hole = pickRandomHole(holes);
     hole.classList.add('up');
     setTimeout(function() {
@@ -40,38 +41,34 @@ function popOut() {
     }, time);
 }
 
-popOut();
-
 function startGame() {
-    countdown = 10;
+    countdown = 20;
     scoreBoard.textContent = 0;
-    scoreBoard.getElementsByClassName.display = 'block;'
+    scoreBoard.display = 'block';
     countdownBoard.textContent = countdown;
     timeUp = false;
     score = 0;
     popOut();
     setTimeout(function() {
         timeUp = true;
-    }, 10);
+    }, 20);
+
+    let startCountdown = setInterval(function(){
+countdown -= 1;
+countdownBoard.textContent = countdown;
+if (countdown < 0) {
+    countdown = 0;
+    clearInterval(startCountdown);
+    countdownBoard.textContent = 'Your time is UP!!';
 }
-
-let startCountdown = setInterval(function() {
-    countdown -= 1;
-    countdownBoard.textContent = countdown;
-    if (countdown < 0) {
-        countdown = 0;
-        clearInterval(startCountdown);
-        countdownBoard.textContent = 'Time is Up! Try Again';
-    }
-}, 1000);
-
-startButton.addEventListener('click', startGame);
+    }, 20000);
+}
+startBtn.addEventListener('click', startGame);
 
 function whack(e) {
     score++;
-    this.style.backgroundImage = 'url("/..yoda2.png")';
-    setTimeout(() => {
-        this.style.backgroundImage = 'url("..yoda1.png")';
-    }, 800);
+    this.style.backgroundImage = 'url("assets/images/yoda2.png")';
+    setTimeout(function(){}, 800);
 }
 yodas.forEach(yoda => yoda.addEventListener('click', whack));
+
