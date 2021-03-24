@@ -46,15 +46,16 @@ transform: rotate(-110deg);
 }
 
 .score {
-    font-size: 150px;
-    color: rgb(216, 205, 205);
+    color: white;
     position: absolute;
-    transform: translate( -50%, -50%);
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    width: 200px;
-    height: 100px;
+    top: 10px;
+    left: 83%;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 5px;
     
 }
 
@@ -62,7 +63,7 @@ transform: rotate(-110deg);
     color: white;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 94px;
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
@@ -95,7 +96,7 @@ transform: rotate(-110deg);
     outline: none;
 }
 
-.game {
+.game-play {
     border: solid red 1px;
     width: 600px;
     height: 400px;
