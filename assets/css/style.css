@@ -15,12 +15,13 @@ html {
 }
 */
 
-.cursor img {
+.cursor img  {
 position: absolute;
 height: 100px;
 width: 50px;
 z-index: 2;
 transform: translate( -50%, -50%);
+cursor: none;
 }
 
 @keyframes hit {
@@ -95,6 +96,7 @@ transform: rotate(-110deg);
 }
 
 .game {
+    border: solid red 1px;
     width: 600px;
     height: 400px;
     margin: 70px auto;
@@ -145,3 +147,4 @@ transform: rotate(-110deg);
 .hole.up .yoda {
     top: 0;
 }
+
