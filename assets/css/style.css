@@ -97,7 +97,7 @@ transform: rotate(-110deg);
 }
 
 .game-play {
-    border: solid red 1px;
+    border: ;
     width: 600px;
     height: 400px;
     margin: 70px auto;
@@ -108,11 +108,12 @@ transform: rotate(-110deg);
 }
 
 .hole {
+     border: ;
+     padding-left: 20px;
     -webkit-column-count: 6;
+     column-count: 6;
     -webkit-column-gap: 50px;
     column-gap: 50px;
-    column-count: 6;
-    border: 1px solid red;
     position: relative;
      overflow: hidden;
 }
@@ -134,7 +135,7 @@ transform: rotate(-110deg);
 .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    padding-left: 60px;
+    margin-left: 30px;
     top: 100%;
     width: 80%;
     height: 140%;
