@@ -108,7 +108,7 @@ transform: rotate(-110deg);
 }
 
 .hole {
-    flex: 1 0 33.33%;
+    flex: 33%;
     position: relative;
     overflow: hidden;
 }
