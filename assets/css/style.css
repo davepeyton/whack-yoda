@@ -5,15 +5,12 @@
 }
 
 body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
 }
-/*
-html {
-    cursor: url('/assets/images/lightsaber.png'), auto;
-}
-*/
 
 .cursor img  {
 position: absolute;
@@ -154,6 +151,85 @@ transform: rotate(-110deg);
 
 .hole.up .yoda {
     top: 0;
+}
+
+@media (max-width: 768px) {
+    .game-play {
+        width: 600px;
+        padding-left: 50px;
+    }
+  
+    .wrapper, background-image {
+        width: fit-content;
+        margin: 0;
+        text-align: center;
+    }
+
+    .startBtn, button{
+        transform: translate(-86%, 0);
+        width: 10px;
+        padding-left: 40px;
+        padding-right: 
+        padding-top: 1px;
+        padding-bottom: px;
+        text-align: center;
+        height: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .countdown {
+        Padding-left: 18%;
+        font-size: 15px;
+    }
+    .yoda {
+    background-image: url('../images/yoda1.png');
+    position: absolute;
+    margin-left: 60px;
+    top: 100%;
+    width: 70%;
+    height: 140%;
+    transition: 0.4s;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.hole {
+     border: ;
+     width: auto;
+     padding-left: 22px;
+    -webkit-column-count: 6;
+     column-count: 6;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    position: relative;
+     overflow: hidden;
+}
+.highScore {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    right: 23%;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+.score {
+    color: white;
+    position: relative;
+    top: 1px;
+    left: 113%;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
 }
 
 
