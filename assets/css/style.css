@@ -5,8 +5,6 @@
 }
 
 body {
-    background-image: url(/assets/images/bgimg.png");
-    images: cover;
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -118,9 +116,7 @@ transform: rotate(-110deg);
 
 .hole {
      padding-left: 20px;
-    -webkit-column-count: 9;
      column-count: 9;
-    -webkit-column-gap: 50px;
     column-gap: 20px;
     justify-content: space-evenly;
     position: relative;
@@ -144,9 +140,9 @@ transform: rotate(-110deg);
 .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    margin-left: 60px;
+    margin-left: 25px;
     top: 80%;
-    width: 60%;
+    width: 90%;
     height: 140%;
     transition: 0.4s;
     background-repeat: no-repeat;
@@ -242,20 +238,17 @@ transform: rotate(-110deg);
     .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    margin-left: 60px;
+    margin-left: 30px;
     top: 100%;
-    width: 70%;
-    height: 140%;
+    width: 80%;
+    height: 120%;
     transition: 0.4s;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .hole {
-    
-    -webkit-column-count: 9;
      column-count: 9;
-    -webkit-column-gap: 50px;
     column-gap: 20px;
     justify-content: space-evenly;
     position: relative;
@@ -344,17 +337,14 @@ transform: rotate(-110deg);
     margin-left: 30px;
     top: 100%;
     width: 80%;
-    height: 140%;
+    height: 110%;
     transition: 0.4s;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .hole {
-    
-    -webkit-column-count: 9;
      column-count: 9;
-    -webkit-column-gap: 50px;
     column-gap: 20px;
     justify-content: space-evenly;
     position: relative;
@@ -513,7 +503,7 @@ transform: rotate(-110deg);
 .countdown {
     border: 0 solid black;
     position: absolute;
-    top: 600px;
+    top: 750px;
     width: 180px;
     margin-left: 83%;
     font-size: 20px;
@@ -524,10 +514,10 @@ transform: rotate(-110deg);
     .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    margin-left: 60px;
+    margin-left: 30px;
     top: 100%;
     width: 70%;
-    height: 140%;
+    height: 100%;
     transition: 0.4s;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -536,10 +526,8 @@ transform: rotate(-110deg);
 .hole {
       width: auto;
      padding-left: 22px;
-    -webkit-column-count: 6;
      column-count: 6;
-    -webkit-column-gap: 50px;
-    column-gap: 50px;
+    column-gap: 30px;
     position: relative;
      overflow: hidden;
 }
