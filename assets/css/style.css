@@ -10,6 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+
 }
 
 .cursor img  {
@@ -32,13 +33,16 @@ transform: rotate(-110deg);
 
 .wrapper {
     border: 5px solid rgb(138, 4, 4);
-    width: 800px;
-    height: 600px;
-    position: absolute;
+     position: absolute;
+    width: auto;
+    height: auto;
+    margin-left: 85%;
+     margin-right: 0;
+   
     transform: translate( -50%, -50%);
     top: 50%;
-    left: 50%;
     background-image: url('../images/background.png');
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -155,28 +159,36 @@ transform: rotate(-110deg);
 
 @media (max-width: 768px) {
     .game-play {
-        width: 600px;
+        width: fit-content00px;
         padding-left: 50px;
     }
   
-    .wrapper, background-image {
-        width: fit-content;
-        margin: 0;
+    .wrapper {
+        display: inline-flex;
+        width: auto;
+        margin: ;
         text-align: center;
     }
 
-    .startBtn, button{
-        transform: translate(-86%, 0);
-        width: 10px;
-        padding-left: 40px;
-        padding-right: 
-        padding-top: 1px;
-        padding-bottom: px;
-        text-align: center;
-        height: 10px;
-        font-size: 15px;
-        text-align: center;
+    background-image {
+        display: none;
     }
+
+  .startBtn {
+    position: absolute;
+    width: auto;
+    bottom: 10px;
+    left: 360px;
+    transform: translate(-50%, 0);
+    background: rgb(184, 3, 3);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+    z-index: 200;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
     .countdown {
         Padding-left: 18%;
         font-size: 15px;
@@ -207,27 +219,26 @@ transform: rotate(-110deg);
     color: white;
     position: absolute;
     top: 10px;
-    left: 40%;
+    left: 44%;
     right: 23%;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 1px 5px;
+    border-radius: 50px;
     
 }
 .score {
     color: white;
-    position: relative;
-    top: 1px;
-    left: 113%;
+    position: absolute;
+    top: 40px;
+    left: 350px;
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 15px;
-    border-radius: 5px;
+    
     
 }
 }
