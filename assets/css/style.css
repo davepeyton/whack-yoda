@@ -5,8 +5,11 @@
 }
 
 body {
-    padding-top: 100px;
-   
+    background-image: url(/assets/images/bgimg.png");
+    images: cover;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
     padding-left: 30%;
@@ -30,6 +33,7 @@ transform: translate( -50%, -50%);
 cursor: none;
 }
 
+
 @keyframes hit {
     from {
         transform: rotate(-0deg);
@@ -39,7 +43,9 @@ transform: rotate(-110deg);
     }
 }
 
-.wrapper{
+
+
+.wrapper {
     border: 0 solid black;
 }
 
@@ -101,23 +107,22 @@ transform: rotate(-110deg);
 }
 
 .game-play {
-    
+    padding-bottom: 90px;
     width: 600px;
     height: 400px;
     margin: 70px auto;
     z-index: 250;
     display: flex;
     flex-wrap: wrap;
-    
-}
+    }
 
 .hole {
-     
      padding-left: 20px;
-    -webkit-column-count: 6;
-     column-count: 6;
+    -webkit-column-count: 9;
+     column-count: 9;
     -webkit-column-gap: 50px;
-    column-gap: 50px;
+    column-gap: 20px;
+    justify-content: space-evenly;
     position: relative;
      overflow: hidden;
 }
@@ -139,9 +144,9 @@ transform: rotate(-110deg);
 .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    margin-left: 30px;
-    top: 100%;
-    width: 80%;
+    margin-left: 60px;
+    top: 80%;
+    width: 60%;
     height: 140%;
     transition: 0.4s;
     background-repeat: no-repeat;
@@ -166,7 +171,6 @@ transform: rotate(-110deg);
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     padding-left: 1%;
@@ -178,8 +182,7 @@ transform: rotate(-110deg);
        display: flex;
        height: 680px;
        background-repeat: no-repeat;
-      
-   }
+      }
 
  .startBtn {
     position: relative;
@@ -217,7 +220,6 @@ transform: rotate(-110deg);
     position: relative;
     top: 140px;
     margin-left: 45%;
-
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
@@ -236,6 +238,7 @@ transform: rotate(-110deg);
     text-align: center;
     color: rgb(255 252 252);
 }
+
     .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
@@ -247,14 +250,14 @@ transform: rotate(-110deg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
 .hole {
-     
-     width: auto;
-     padding-left: 22px;
-    -webkit-column-count: 6;
-     column-count: 6;
+    
+    -webkit-column-count: 9;
+     column-count: 9;
     -webkit-column-gap: 50px;
-    column-gap: 50px;
+    column-gap: 20px;
+    justify-content: space-evenly;
     position: relative;
      overflow: hidden;
 }
@@ -263,11 +266,10 @@ transform: rotate(-110deg);
 
                        /* Media ipad 2 */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display: inline-flex;
     padding-left: 10%;
@@ -279,8 +281,7 @@ transform: rotate(-110deg);
        display: flex;
        height: 690px;
        background-repeat: no-repeat;
-      
-   }
+      }
 
  .startBtn {
     position: relative;
@@ -318,7 +319,6 @@ transform: rotate(-110deg);
     position: relative;
     top: 140px;
     margin-left: 45%;
-
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
@@ -337,25 +337,26 @@ transform: rotate(-110deg);
     text-align: center;
     color: rgb(255 252 252);
 }
-    .yoda {
+   
+.yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
-    margin-left: 60px;
+    margin-left: 30px;
     top: 100%;
-    width: 70%;
+    width: 80%;
     height: 140%;
     transition: 0.4s;
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
 .hole {
-     
-     width: auto;
-     padding-left: 22px;
-    -webkit-column-count: 6;
-     column-count: 6;
+    
+    -webkit-column-count: 9;
+     column-count: 9;
     -webkit-column-gap: 50px;
-    column-gap: 50px;
+    column-gap: 20px;
+    justify-content: space-evenly;
     position: relative;
      overflow: hidden;
 }
@@ -368,7 +369,6 @@ transform: rotate(-110deg);
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
     padding-left: 1px;
@@ -381,7 +381,8 @@ transform: rotate(-110deg);
        height: 680px;
        background-repeat: no-repeat;
       
-   }}
+   }
+}
 
 /* Media smart phone 414 */
 
@@ -389,7 +390,6 @@ transform: rotate(-110deg);
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
     padding-left: 1px;
@@ -401,8 +401,8 @@ transform: rotate(-110deg);
        display: flex;
        height: 680px;
        background-repeat: no-repeat;
-      
-   }}
+      }
+}
    
 /* Media smart phone 411 */
 
@@ -422,8 +422,8 @@ transform: rotate(-110deg);
        display: flex;
        height: 680px;
        background-repeat: no-repeat;
-      
-   }}
+       }
+}
 
 /* Media smart phone 360 */
 
@@ -431,7 +431,6 @@ transform: rotate(-110deg);
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
     padding-left: 0;
@@ -443,8 +442,8 @@ transform: rotate(-110deg);
        display: flex;
        height: 680px;
        background-repeat: no-repeat;
-      
-   }}
+       }
+}
 
 
 /* Media smart phone */
@@ -453,7 +452,6 @@ transform: rotate(-110deg);
 
    body {
     padding-top: 100px;
-   
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
     padding-left: 0;
@@ -504,15 +502,13 @@ transform: rotate(-110deg);
     position: relative;
     top: 200px;
     margin-left: 43%;
-
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
     padding: 1px 15px;
     border-radius: 5px;
-    
-}
+    }
 
 .countdown {
     border: 0 solid black;
@@ -524,6 +520,7 @@ transform: rotate(-110deg);
     text-align: center;
     color: rgb(255 252 252);
 }
+
     .yoda {
     background-image: url('../images/yoda1.png');
     position: absolute;
@@ -535,6 +532,7 @@ transform: rotate(-110deg);
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
 .hole {
       width: auto;
      padding-left: 22px;
@@ -544,4 +542,5 @@ transform: rotate(-110deg);
     column-gap: 50px;
     position: relative;
      overflow: hidden;
-}}
+}
+}
