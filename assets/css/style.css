@@ -41,7 +41,7 @@ transform: rotate(-110deg);
    
     transform: translate( -50%, -50%);
     top: 50%;
-    background-image: url('../images/background.png');
+    background-image: url('../images/bgimg.png');
     background-size: cover;
     overflow: hidden;
 }
