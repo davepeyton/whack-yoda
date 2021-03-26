@@ -46,15 +46,16 @@ transform: rotate(-110deg);
 .score {
     border: 0 solid red;;
     color: white;
-    position: fixed;
-    top: 200px;
-    margin-left: 14%;
+    position: relative;
+    top: 100px;
+    margin-left: 46%;
+    margin-right: 60%;
+    padding-left 10px;
 
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 1px 15px;
     border-radius: 5px;
     
 }
@@ -161,131 +162,25 @@ transform: rotate(-110deg);
     top: 0;
 }
 
-@media (max-width: 768px) {
+/* Media ipad */
 
-    body {
-    padding-top: 100px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    display:inline-flex;
-    padding-left: 10%;
-    justify-content: center;
-   }
+@media (max-width: 1024px) {
 
-    .game-play {
-       
-        padding-left: 0px;
-    }
-  
-   .bgimg {
-       position: absolute;
-       display: flex;
-       height: 600px;
-     
-   }
-
- .startBtn {
-    position: relative;
-    top: 530px;
-    margin-left: 46%;
-    transform: translate(-50%, 0);
-    background: rgb(184, 3, 3);
-    color: white;
-    padding: 20px 50px;
-    border-radius: 5px;
-    z-index: 200;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-    
-.highScore {
-    border: 1px solid black;
-    color: white;
-    position: absolute;
-    margin-left: 2%;
-    top: 120px;
-    left: inherit;
-    font-size: 2px;
-    font-weight: 900;
-    text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-.score {
-    border: 0 solid red;;
-    color: white;
-    position: fixed;
-    top: 200px;
-    margin-left: 35%;
-
-    font-size: 25px;
-    font-weight: 900;
-    text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 1px 15px;
-    border-radius: 5px;
-    
-}
-
-.countdown {
-    border: 0 solid black;
-    position: absolute;
-    top: 590px;
-    width: 180px;
-    margin-left: 25%;
-    font-size: 20px;
-    text-align: center;
-    color: rgb(255 252 252);
-}
-    .yoda {
-    background-image: url('../images/yoda1.png');
-    position: absolute;
-    margin-left: 60px;
-    top: 100%;
-    width: 70%;
-    height: 140%;
-    transition: 0.4s;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-.hole {
-     
-     width: auto;
-     padding-left: 22px;
-    -webkit-column-count: 6;
-     column-count: 6;
-    -webkit-column-gap: 50px;
-    column-gap: 50px;
-    position: relative;
-     overflow: hidden;
-}
-
-}
-
-@media (max-width: 320px) {
-
-    body {
+   body {
     padding-top: 100px;
    
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
-    padding-left: 10%;
+    padding-left: 21%;
     justify-content: center;
    }
 
-    .game-play {
-       
-        padding-left: 0px;
-    }
-  
    .bgimg {
        position: absolute;
        display: flex;
        height: 600px;
-     
+       background-repeat: no-repeat;
+      
    }
 
  .startBtn {
@@ -306,11 +201,11 @@ transform: rotate(-110deg);
 .highScore {
     border: 1px solid black;
     color: white;
-    position: absolute;
-    margin-left: 24%;
-    top: 120px;
+    position: relative;
+    margin-left: 46%;
+    top: 20px;
     left: inherit;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
@@ -321,15 +216,15 @@ transform: rotate(-110deg);
 .score {
     border: 0 solid red;;
     color: white;
-    position: fixed;
-    top: 200px;
-    margin-left: 35%;
+    position: relative;
+    top: 140px;
+    margin-left: 45%;
 
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 1px 15px;
+    padding: px px;
     border-radius: 5px;
     
 }
@@ -337,9 +232,9 @@ transform: rotate(-110deg);
 .countdown {
     border: 0 solid black;
     position: absolute;
-    top: 590px;
+    top: 640px;
     width: 180px;
-    margin-left: 25%;
+    margin-left: 27%;
     font-size: 20px;
     text-align: center;
     color: rgb(255 252 252);
@@ -368,33 +263,32 @@ transform: rotate(-110deg);
 }
 
 }
+
+
+/* Media smart phone */
 
 @media (max-width: 320px) {
 
-    body {
+   body {
     padding-top: 100px;
-    
+   
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
-    padding-left: 10%;
+    padding-left: 0;
     justify-content: center;
    }
 
-    .game-play {
-       
-        padding-left: 0px;
-    }
-  
    .bgimg {
        position: absolute;
        display: flex;
        height: 600px;
-     
+       background-repeat: no-repeat;
+      
    }
 
  .startBtn {
     position: relative;
-    top: 530px;
+    top: 490px;
     margin-left: 46%;
     transform: translate(-50%, 0);
     background: rgb(184, 3, 3);
@@ -410,11 +304,11 @@ transform: rotate(-110deg);
 .highScore {
     border: 1px solid black;
     color: white;
-    position: absolute;
-    margin-left: 24%;
-    top: 120px;
+    position: relative;
+    margin-left: 46%;
+    top: 20px;
     left: inherit;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
@@ -425,9 +319,9 @@ transform: rotate(-110deg);
 .score {
     border: 0 solid red;;
     color: white;
-    position: fixed;
+    position: relative;
     top: 200px;
-    margin-left: 35%;
+    margin-left: 43%;
 
     font-size: 25px;
     font-weight: 900;
@@ -441,9 +335,9 @@ transform: rotate(-110deg);
 .countdown {
     border: 0 solid black;
     position: absolute;
-    top: 590px;
+    top: 600px;
     width: 180px;
-    margin-left: 25%;
+    margin-left: 83%;
     font-size: 20px;
     text-align: center;
     color: rgb(255 252 252);
@@ -472,10 +366,3 @@ transform: rotate(-110deg);
 }
 
 }
-
-
-
-
- 
-
-
