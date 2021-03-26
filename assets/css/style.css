@@ -9,7 +9,7 @@ body {
     grid-template-columns: repeat(auto-(10rem, 1fr));
     font-family: Arial, Helvetica, sans-serif;
     display:inline-flex;
-    padding-left: 38%;
+    padding-left: 25%;
     justify-content: center;
    }
 
@@ -17,6 +17,7 @@ body {
        position: absolute;
        display: flex;
        height: 600px;
+       background-repeat: no-repeat;
    }
 
 .cursor img  {
@@ -38,28 +39,32 @@ transform: rotate(-110deg);
 }
 
 .wrapper{
-    border: 5px solid black;
+    border: 0 solid black;
 }
 
 .score {
+    border: 0 solid red;;
     color: white;
-    position: absolute;
-    top: 10px;
-    left: 83%;
+    position: fixed;
+    top: 200px;
+    margin-left: 22%;
+
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 10px 15px;
+    padding: 1px 15px;
     border-radius: 5px;
     
 }
 
 .highScore {
+    border: 1px solid black;
     color: white;
     position: absolute;
-    top: 10px;
-    left: 94px;
+    margin-left: 15%;
+    top: 120px;
+    left: inherit;
     font-size: 25px;
     font-weight: 900;
     text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
@@ -69,19 +74,21 @@ transform: rotate(-110deg);
 }
 
 .countdown {
+    border: 0 solid black;
     position: absolute;
-    top: 490px;
-    width: 100%;
+    top: 590px;
+    width: 180px;
+    margin-left: 16%;
     font-size: 20px;
     text-align: center;
-    color: rgb(206, 201, 201);
+    color: rgb(255 252 252);
 }
 
 .startBtn {
     position: relative;
-    top: 520px;
+    top: 530px;
   
-    left: 300px;
+    margin-left: 46%;
     transform: translate(-50%, 0);
     background: rgb(184, 3, 3);
     color: white;
