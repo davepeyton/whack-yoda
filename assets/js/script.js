@@ -1,4 +1,5 @@
 const holes = document.querySelectorAll('.hole');
+const highScoreBoard = document.querySelector('.highScore');
 const scoreBoard = document.querySelector('.score');
 const yodas = document.querySelectorAll('.yoda');
 const countdownBoard = document.querySelector('.countdown');
@@ -19,10 +20,12 @@ window.addEventListener('mousemove', function(e) {
 });
 
 let lastHole;
+let score = 0;
 let timeUp = false;
 let timeLimit = 20000;
-let score = 0;
 let countdown;
+let highScore = localStorage.getItem('level1HighScore') || 0;
+highScoreBoard.textContent = 'HIGH SCORE: ' + highScore;
 
 function pickRandomHole(holes) {
     const randomHole = Math.floor(Math.random() * holes.length);
@@ -33,6 +36,8 @@ function pickRandomHole(holes) {
     lastHole = hole;
     return hole;
 }
+
+
 
 function yodaPopUp() {
     const time = Math.random() * 1300 + 400;
@@ -67,6 +72,14 @@ if (countdown < 0) {
     }, 1000);
 }
 startBtn.addEventListener('click', startGame);
+
+function checkHighScore(){
+    if (score > localStorahe.getItem('level1HighScore')){
+        localStorage.setItem('level1HighScore', score);
+        highScore = score;
+        checkHighScore.textContent = 'HIGH SCORE: ' + highScore;
+    }
+}
 
 function whack(e) {
     score++;
