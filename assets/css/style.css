@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 391px) and (max-width: 2200px) {
+    .html {
+        display: flex;
+    }
+}
+
 .bgimg {
     position: absolute;
+    opacity: 0.7;
     background-color: ;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-flex;
     padding-left: 35%;
@@ -42,7 +49,6 @@
 
 .score {
     border: 0 solid red;
-    ;
     color: white;
     position: relative;
     top: 85px;
@@ -81,7 +87,7 @@
 
 .startBtn {
     position: relative;
-    top: 630px;
+    top: 680px;
     margin-left: 47%;
     background: rgb(184, 3, 3);
     color: white;
@@ -96,7 +102,7 @@
 .game-play {
     position: relative;
     padding-bottom: 0px;
-    right: 7px;
+    right: 0px;
     width: 600px;
     height: 500px;
     margin: 0px auto;
@@ -105,9 +111,19 @@
     flex-wrap: wrap;
 }
 
+
+/* rules */
+
 .rule-Btn {
     position: fixed;
-    transform: translate(1040%, 2500%);
+    background-color: red;
+    top: 46%;
+    left: 47%;
+    width: 135px;
+    height: 60px;
+    position: fixed;
+    cursor: pointer;
+    z-index: 2;
 }
 
 .instructions {
@@ -117,10 +133,17 @@
     background-color: white;
     width: 500px;
     max-width: 80%;
-    top: 60%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.bg-active {
+    visibility: visible;
+    opacity: 1;
 }
 
 .header {
@@ -136,7 +159,7 @@
     font-size: 1.30rem;
 }
 
-.header .closeBtn {
+.closeBtn {
     background: none;
     border: none;
     outline: none;
@@ -150,9 +173,12 @@
 }
 
 #overlay {
-    /*opacity: */
+    opacity: 0;
     position: fixed;
 }
+
+
+/* Game play holes*/
 
 .hole {
     padding-left: 20px;
@@ -290,24 +316,60 @@
 
 /* Media ipad 2 */
 
-@media (max-width: 767px) {
-    body {
-        padding-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        display: inline-flex;
-        padding-left: 10%;
-        justify-content: center;
-    }
+@media (max-width: 768px) {
     .bgimg {
-        position: absolute;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 20%;
+        width: 100%;
         display: flex;
-        height: 690px;
+        height: 1000px;
         background-repeat: no-repeat;
+    }
+    .game-play {
+        position: relative;
+        padding-bottom: 80px;
+        width: 600px;
+        height: 500px;
+        margin: 10px auto;
+        z-index: 250;
+        display: flex;
+        space-between: 20%;
+        flex-wrap: wrap;
+    }
+    .rule-Btn {
+        position: fixed;
+        background-color: red;
+        top: 78%;
+        left: 41%;
+        width: 140px;
+        height: 60px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
     }
     .startBtn {
         position: relative;
-        top: 500px;
-        margin-left: 46%;
+        top: 680px;
+        margin-left: 50%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -319,12 +381,11 @@
         outline: none;
     }
     .highScore {
-        border: 1px solid black;
         color: white;
         position: relative;
         margin-left: 46%;
-        top: 20px;
-        left: inherit;
+        top: 0;
+        left: 20px;
         font-size: 18px;
         font-weight: 900;
         text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
@@ -334,23 +395,24 @@
     }
     .score {
         border: 0 solid red;
-        ;
-        color: white;
+        color: #0e0e0e;
         position: relative;
         top: 140px;
-        margin-left: 45%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 50%;
         font-size: 25px;
         font-weight: 900;
-        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 5px;
     }
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 500px;
+        top: 550px;
         width: 180px;
-        margin-left: 46%;
+        margin-left: 50%;
         font-size: 20px;
         text-align: center;
         color: rgb(255 252 252);

@@ -1,3 +1,15 @@
+const ruleBtn = document.querySelector('.rule-Btn');
+const gameIns = document.querySelector('.instructions');
+const closeBtn = document.querySelector('.closeBtn');
+
+ruleBtn.addEventListener('click', function() {
+    gameIns.classList.add('bg-active');
+});
+
+closeBtn.addEventListener('click', function() {
+    gameIns.classList.remove('bg-active');
+});
+
 const holes = document.querySelectorAll('.hole');
 const highScoreBoard = document.querySelector('.highScore');
 const scoreBoard = document.querySelector('.score');
@@ -7,13 +19,13 @@ const startBtn = document.querySelector('.startBtn');
 const cursor = document.querySelector('.cursor img');
 
 window.addEventListener('mousemove', function(e) {
-       console.log(e);
+    console.log(e);
 
 
 
-    window.addEventListener('click',() => {
+    window.addEventListener('click', () => {
         cursor.style.animation = 'hit 0.1s ease';
-        setTimeout(() =>{
+        setTimeout(() => {
             cursor.style.removeProperty('animation');
         }, 100);
     });
@@ -50,7 +62,7 @@ function yodaPopUp() {
 }
 
 function startGame() {
-    countdown = timeLimit/1000;
+    countdown = timeLimit / 1000;
     scoreBoard.textContent = 0;
     scoreBoard.display = 'block';
     countdownBoard.textContent = countdown;
@@ -61,20 +73,20 @@ function startGame() {
         timeUp = true;
     }, timeLimit);
 
-    let startCountdown = setInterval(function(){
-countdown -= 1;
-countdownBoard.textContent = countdown;
-if (countdown < 0) {
-    countdown = 0;
-    clearInterval(startCountdown);
-    countdownBoard.textContent = 'Your time is UP!!';
-}
+    let startCountdown = setInterval(function() {
+        countdown -= 1;
+        countdownBoard.textContent = countdown;
+        if (countdown < 0) {
+            countdown = 0;
+            clearInterval(startCountdown);
+            countdownBoard.textContent = 'Your time is UP!!';
+        }
     }, 1000);
 }
 startBtn.addEventListener('click', startGame);
 
-function checkHighScore(){
-    if (score > localStorahe.getItem('level1HighScore')){
+function checkHighScore() {
+    if (score > localStorahe.getItem('level1HighScore')) {
         localStorage.setItem('level1HighScore', score);
         highScore = score;
         checkHighScore.textContent = 'HIGH SCORE: ' + highScore;
@@ -89,7 +101,6 @@ function whack(e) {
         this.style.backgroundImage = 'url("assets/images/yoda1.png")';
         this.style.pointerEvents = 'all';
     }, 600);
-    scoreBoard.textContent =score;
+    scoreBoard.textContent = score;
 }
 yodas.forEach(yoda => yoda.addEventListener('click', whack));
-
