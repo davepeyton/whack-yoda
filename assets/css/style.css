@@ -229,110 +229,22 @@
 /* Media ipad */
 
 @media (max-width: 1024px) {
-    body {
-        padding-top: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        display: flex;
-        padding-left: 1%;
-        justify-content: center;
-    }
-    .bgimg {
-        position: absolute;
-        display: flex;
-        height: 680px;
-        background-repeat: no-repeat;
-    }
-    .startBtn {
-        position: relative;
-        top: 530px;
-        margin-left: 46%;
-        transform: translate(-50%, 0);
-        background: rgb(184, 3, 3);
-        color: white;
-        padding: 20px 50px;
-        border-radius: 5px;
-        z-index: 200;
-        cursor: pointer;
-        border: none;
-        outline: none;
-    }
-    .highScore {
-        border: 1px solid black;
-        color: white;
-        position: relative;
-        margin-left: 46%;
-        top: 20px;
-        left: inherit;
-        font-size: 18px;
-        font-weight: 900;
-        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
-        background-color: rgba(255, 255, 255, 0.3);
-        padding: 10px 15px;
-        border-radius: 5px;
-    }
-    .score {
-        border: 0 solid red;
-        ;
-        color: white;
-        position: relative;
-        top: 140px;
-        margin-left: 45%;
-        font-size: 25px;
-        font-weight: 900;
-        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 5px;
-    }
-    .countdown {
-        border: 0 solid black;
-        position: absolute;
-        top: 640px;
-        width: 180px;
-        margin-left: 27%;
-        font-size: 20px;
-        text-align: center;
-        color: rgb(255 252 252);
-    }
-    .yoda {
-        background-image: url('../images/yoda1.png');
-        position: absolute;
-        margin-left: 30px;
-        top: 100%;
-        width: 80%;
-        height: 120%;
-        transition: 0.4s;
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    .hole {
-        column-count: 9;
-        column-gap: 20px;
-        justify-content: space-evenly;
-        position: relative;
-        overflow: hidden;
-    }
-}
-
-
-/* Media ipad 2 */
-
-@media (max-width: 768px) {
     .bgimg {
         position: fixed;
         top: 0;
         bottom: 0;
-        right: 20%;
+        right: 17%;
         width: 100%;
         display: flex;
-        height: 1000px;
+        height: 1400px;
         background-repeat: no-repeat;
     }
     .game-play {
         position: relative;
-        padding-bottom: 80px;
-        width: 600px;
-        height: 500px;
-        margin: 10px auto;
+        padding-bottom: 0;
+        left: 50px;
+        width: 710px;
+        height: 900px;
         z-index: 250;
         display: flex;
         space-between: 20%;
@@ -341,8 +253,8 @@
     .rule-Btn {
         position: fixed;
         background-color: red;
-        top: 78%;
-        left: 41%;
+        top: 85%;
+        left: 43%;
         width: 140px;
         height: 60px;
         position: fixed;
@@ -368,7 +280,7 @@
     }
     .startBtn {
         position: relative;
-        top: 680px;
+        top: 1150px;
         margin-left: 50%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
@@ -410,7 +322,143 @@
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 550px;
+        top: 1020px;
+        width: 180px;
+        margin-left: 50%;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255 252 252);
+    }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 20px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .hole {
+        column-count: 9;
+        column-gap: 20px;
+        justify-content: space-evenly;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+
+/* Media ipad 2 */
+
+@media (max-width: 768px) {
+    .bgimg {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 20%;
+        width: 100%;
+        display: flex;
+        height: 1050px;
+        background-repeat: no-repeat;
+    }
+    .game-play {
+        position: relative;
+        padding-bottom: 80px;
+        left: 10px;
+        width: 600px;
+        height: 650px;
+        margin: 10px auto;
+        z-index: 250;
+        display: flex;
+        space-between: 20%;
+        flex-wrap: wrap;
+    }
+    .rule-Btn {
+        position: fixed;
+        background-color: red;
+        top: 78%;
+        left: 41%;
+        width: 140px;
+        height: 60px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .rule-Btn {
+        position: fixed;
+        background-color: red;
+        top: 84%;
+        left: 41%;
+        width: 140px;
+        height: 60px;
+        position: fixed;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .startBtn {
+        position: relative;
+        top: 820px;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 20px 50px;
+        border-radius: 5px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 46%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 140px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 50%;
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 720px;
         width: 180px;
         margin-left: 50%;
         font-size: 20px;
