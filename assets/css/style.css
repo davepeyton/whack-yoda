@@ -324,8 +324,8 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 0;
-        left: 30%;
-        width: 710px;
+        left: 35%;
+        width: 550px;
         height: 800px;
         z-index: 250;
         display: flex;
@@ -352,18 +352,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 70%;
+        top: 850px;
         left: 46%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 985px;
-        margin-left: 50%;
+        top: 945px;
+        margin-left: 42%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -391,11 +390,11 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 80px;
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 45%;
-        font-size: 60px;
+        font-size: 30px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
@@ -404,10 +403,10 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 795px;
+        top: 815px;
         width: 180px;
         margin-left: 50%;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
@@ -415,7 +414,7 @@ body {
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
-        margin-left: 20px;
+        margin-left: 10px;
         top: 100%;
         width: 100%;
         height: 100%;
@@ -457,18 +456,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 70%;
-        left: 45%;
+        top: 805px;
+        left: 46%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 985px;
-        margin-left: 50%;
+        top: 895px;
+        margin-left: 41%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -562,18 +560,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 70%;
+        top: 798px;
         left: 45%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 985px;
-        margin-left: 50%;
+        top: 885px;
+        margin-left: 40%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -604,8 +601,8 @@ body {
         top: 40px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 45%;
-        font-size: 60px;
+        margin-left: 44%;
+        font-size: 40px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
@@ -625,7 +622,7 @@ body {
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
-        margin-left: 20px;
+        margin-left: 10px;
         top: 100%;
         width: 100%;
         height: 100%;
@@ -670,18 +667,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 75%;
+        top: 805px;
         left: 43%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 1045px;
-        margin-left: 50%;
+        top: 935px;
+        margin-left: 35%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -709,7 +705,7 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 170px;
+        top: 70px;
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 42%;
@@ -789,18 +785,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 62%;
+        top: 472px;
         left: 40%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
-        top: 650px;
-        margin-left: 49%;
+        top: 550px;
+        margin-left: 30%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -898,18 +893,17 @@ body {
     .rule-Btn {
         position: relative;
         background-color: #f5efef;
-        top: 75%;
-        left: 41%;
-        width: 140px;
+        top: 475px;
+        left: 47%;
+        width: 100px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 630px;
-        margin-left: 59%;
+        top: 500px;
+        margin-left: 56%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -937,10 +931,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 30px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 44%;
+        margin-left: 42%;
         font-size: 25px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -952,7 +946,7 @@ body {
         position: relative;
         top: 458px;
         width: 180px;
-        margin-left: 60%;
+        margin-left: 55%;
         font-size: 20px;
         font-weight: bold;
         text-align: center;
@@ -1008,18 +1002,17 @@ body {
     .rule-Btn {
         position: relative;
         background-color: #f1eeee;
-        top: 65%;
-        left: 40%;
+        top: 565px;
+        left: 55%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 690px;
-        margin-left: 75%;
+        top: 590px;
+        margin-left: 72%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -1118,18 +1111,17 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 65%;
-        left: 38%;
+        top: 545px;
+        left: 55%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
-        top: 759px;
-        margin-left: 73%;
+        top: 569px;
+        margin-left: 72%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -1161,7 +1153,7 @@ body {
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 55%;
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
@@ -1227,18 +1219,17 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 69%;
-        left: 41%;
+        top: 689px;
+        left: 61%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
-        top: 890px;
-        margin-left: 85%;
+        top: 710px;
+        margin-left: 80%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -1279,7 +1270,7 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 780px;
+        top: 680px;
         width: 180px;
         margin-left: 82%;
         font-weight: bold;
@@ -1333,18 +1324,17 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 77%;
-        left: 38%;
+        top: 677px;
+        left: 62%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
-        top: 820px;
-        margin-left: 84%;
+        top: 710px;
+        margin-left: 81%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -1385,7 +1375,7 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 655px;
+        top: 555px;
         width: 180px;
         margin-left: 85%;
         font-size: 25px;
@@ -1439,17 +1429,16 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 76%;
-        left: 38%;
+        top: 676px;
+        left: 72%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 810px;
+        top: 710px;
         margin-left: 95%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
@@ -1478,7 +1467,7 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 140px;
+        top: 70px;
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 70%;
@@ -1505,7 +1494,7 @@ body {
         margin-left: 10px;
         top: 100%;
         width: 100%;
-        height: 110%;
+        height: 98%;
         transition: 0.4s;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -1514,7 +1503,7 @@ body {
 
 @media (max-width: 280px) {
     .game-play {
-        position: relative;
+        position: absolute;
         padding-bottom: 160px;
         left: 0;
         width: 710px;
@@ -1547,7 +1536,7 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 900px;
+        top: 660px;
         width: 180px;
         margin-left: 132%;
         font-size: 25px;
@@ -1558,17 +1547,16 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 64%;
-        left: 41%;
+        top: 664px;
+        left: 105%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 1060px;
+        top: 710px;
         margin-left: 130%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
@@ -1597,10 +1585,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 240px;
+        top: 40px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 105%;
+        margin-left: 100%;
         font-size: 40px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
