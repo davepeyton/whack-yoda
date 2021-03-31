@@ -30,10 +30,6 @@ body {
     }
 }
 
-.wrapper {
-    border: 0 solid black;
-}
-
 .score {
     border: 0 solid red;
     color: #0a0a0a;
@@ -215,13 +211,11 @@ body {
     top: 0;
 }
 
-@media (max-width: 2024px) {
+@media (max-width: 2560px) {
     .game-play {
         position: absolute;
         padding-bottom: 0;
-        left: 30%;
-        width: 710px;
-        height: 800px;
+        height: 600px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -243,22 +237,35 @@ body {
         visibility: visible;
         opacity: 1;
     }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 43%;
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
     .rule-Btn {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 70%;
-        left: 46%;
+        top: 705px;
+        left: 44%;
         width: 140px;
         height: 60px;
-        position: fixed;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 985px;
-        margin-left: 50%;
+        top: 795px;
+        margin-left: 41%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
@@ -268,6 +275,17 @@ body {
         cursor: pointer;
         border: none;
         outline: none;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 655px;
+        width: 180px;
+        margin-left: 47%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
     }
     .highScore {
         color: white;
@@ -282,31 +300,6 @@ body {
         padding: 10px 15px;
         border-radius: 5px;
     }
-    .score {
-        border: 0 solid red;
-        color: #0e0e0e;
-        position: relative;
-        top: 40px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-left: 45%;
-        font-size: 60px;
-        font-weight: 900;
-        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 5px;
-    }
-    .countdown {
-        border: 0 solid black;
-        position: relative;
-        top: 795px;
-        width: 180px;
-        margin-left: 50%;
-        font-size: 35px;
-        font-weight: bold;
-        text-align: center;
-        color: rgb(255 255 255);
-    }
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
@@ -320,13 +313,11 @@ body {
     }
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 2024px) {
     .game-play {
         position: absolute;
         padding-bottom: 0;
-        left: 35%;
-        width: 550px;
-        height: 800px;
+        height: 600px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -352,21 +343,32 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 850px;
-        left: 46%;
-        width: 140px;
+        top: 650px;
+        left: 47%;
+        width: 110px;
         height: 60px;
         cursor: pointer;
         z-index: 200;
     }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 615px;
+        width: 180px;
+        margin-left: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
     .startBtn {
         position: relative;
-        top: 945px;
-        margin-left: 42%;
+        top: 745px;
+        margin-left: 44%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 20px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -400,16 +402,311 @@ body {
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 5px;
     }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 10px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1920px) {
+    .game-play {
+        position: absolute;
+        padding-bottom: 0;
+        height: 600px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 650px;
+        left: 48%;
+        width: 110px;
+        height: 60px;
+        cursor: pointer;
+        z-index: 200;
+    }
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 815px;
+        top: 615px;
         width: 180px;
-        margin-left: 50%;
-        font-size: 25px;
+        margin-left: 52%;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
+    }
+    .startBtn {
+        position: relative;
+        top: 745px;
+        margin-left: 45%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 47%;
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 10px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1680px) {
+    .game-play {
+        position: absolute;
+        padding-bottom: 0;
+        height: 600px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 49%;
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 615px;
+        width: 180px;
+        margin-left: 55%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 650px;
+        left: 51%;
+        width: 100px;
+        height: 60px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .startBtn {
+        position: relative;
+        top: 745px;
+        margin-left: 48%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 10px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1600px) {
+    .game-play {
+        position: absolute;
+        padding-bottom: 0;
+        height: 600px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 50%;
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 615px;
+        width: 180px;
+        margin-left: 55%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 650px;
+        left: 52%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .startBtn {
+        position: relative;
+        top: 715px;
+        margin-left: 49%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -428,9 +725,7 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 0;
-        left: 26%;
-        width: 710px;
-        height: 800px;
+        height: 600px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -452,25 +747,50 @@ body {
         visibility: visible;
         opacity: 1;
     }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 80px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 50%;
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 625px;
+        width: 180px;
+        margin-left: 57%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
     .rule-Btn {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 805px;
-        left: 46%;
-        width: 140px;
-        height: 60px;
+        top: 650px;
+        left: 53%;
+        width: 100px;
+        height: 40px;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 895px;
-        margin-left: 41%;
+        top: 715px;
+        margin-left: 50%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 20px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -490,15 +810,54 @@ body {
         padding: 10px 15px;
         border-radius: 5px;
     }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 10px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1440px) {
+    .game-play {
+        position: absolute;
+        padding-bottom: 0;
+        height: 600px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
     .score {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 80px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 45%;
-        font-size: 60px;
+        margin-left: 52%;
+        font-size: 25px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
@@ -507,18 +866,56 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 795px;
+        top: 625px;
         width: 180px;
-        margin-left: 50%;
-        font-size: 35px;
+        margin-left: 57%;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
     }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 650px;
+        left: 55%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .startBtn {
+        position: relative;
+        top: 715px;
+        margin-left: 51%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
-        margin-left: 20px;
+        margin-left: 10px;
         top: 100%;
         width: 100%;
         height: 100%;
@@ -531,10 +928,8 @@ body {
 @media (max-width: 1366px) {
     .game-play {
         position: absolute;
-        padding-bottom: 0;
-        left: 23%;
-        width: 710px;
-        height: 800px;
+        padding-right: 70px;
+        height: 500px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -556,25 +951,50 @@ body {
         visibility: visible;
         opacity: 1;
     }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 50%;
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 525px;
+        width: 180px;
+        margin-left: 57%;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
     .rule-Btn {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 798px;
-        left: 45%;
-        width: 140px;
-        height: 60px;
+        top: 550px;
+        left: 53%;
+        width: 100px;
+        height: 40px;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 885px;
-        margin-left: 40%;
+        top: 615px;
+        margin-left: 49%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 20px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -594,15 +1014,54 @@ body {
         padding: 10px 15px;
         border-radius: 5px;
     }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 10px;
+        top: 100%;
+        width: 100%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game-play {
+        position: absolute;
+        padding-right: 10%;
+        height: 400px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 500px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
     .score {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 44%;
-        font-size: 40px;
+        margin-left: 50%;
+        font-size: 25px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
         background-color: rgba(255, 255, 255, 0.3);
@@ -611,20 +1070,58 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 795px;
+        top: 445px;
         width: 180px;
-        margin-left: 50%;
-        font-size: 35px;
+        margin-left: 57%;
+        font-size: 20px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
     }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 450px;
+        left: 53%;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .startBtn {
+        position: relative;
+        top: 515px;
+        margin-left: 49%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        z-index: 200;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
-        margin-left: 10px;
+        margin-left: 30px;
         top: 100%;
-        width: 100%;
+        width: 80%;
         height: 100%;
         transition: 0.4s;
         background-repeat: no-repeat;
@@ -739,8 +1236,121 @@ body {
     }
 }
 
-
-/* Media ipad 2 */
+@media (max-width: 787px) {
+    .game-play {
+        position: absolute;
+        padding-bottom: 360px;
+        left: 0;
+        width: 710px;
+        height: 800px;
+        z-index: 250;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .rule-body {
+        color: red;
+        font-size: 40px;
+        text-align: center;
+    }
+    .title {
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .instructions {
+        position: fixed;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: 100%;
+        height: 200px;
+        max-width: 80%;
+        top: 35%;
+        left: 50%;
+        z-index: 300;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .bg-active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .rule-Btn {
+        position: relative;
+        border-radius: 20px;
+        background-color: #f5f2f2;
+        top: 532px;
+        left: 42%;
+        font-size: 15px;
+        padding: 5px 10px;
+        width: 110px;
+        height: 40px;
+        cursor: pointer;
+        z-index: 300;
+    }
+    .startBtn {
+        position: relative;
+        top: 480px;
+        margin-left: 35%;
+        transform: translate(-50%, 0);
+        background: rgb(184, 3, 3);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        z-index: 300;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    .highScore {
+        color: white;
+        position: relative;
+        margin-left: 49%;
+        top: 0;
+        left: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        text-shadow: 5px 5px 10px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    .score {
+        border: 0 solid red;
+        color: #0e0e0e;
+        position: relative;
+        top: 30px;
+        padding: 0px 0px;
+        margin-left: 38%;
+        font-size: 15px;
+        font-weight: 900;
+        text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+    .countdown {
+        border: 0 solid black;
+        position: relative;
+        top: 470px;
+        width: 180px;
+        margin-left: 50%;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255 255 255);
+    }
+    .yoda {
+        background-image: url('../images/yoda1.png');
+        position: absolute;
+        margin-left: 20px;
+        top: 90%;
+        width: 90%;
+        height: 100%;
+        transition: 0.4s;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
 
 @media (max-width: 768px) {
     .game-play {
