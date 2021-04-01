@@ -25,6 +25,7 @@
 # Features
 
 ### *Responsive on all device sizes*
+<br>
 
 ### 1. Interactive front-end site that responds to the users actions. 
 <br>
@@ -32,7 +33,7 @@
  ### 2.  Users actively engage with data.
 <br>
 
- ### 3.  to achieve their preferred goals.
+ ### 3.  To achieve their preferred goals.
 <br>
 
  ### 4. Users are able to interact with the site and achieve a high score by their specific actions.
@@ -145,10 +146,30 @@ Balsamiq was used to create the wireframes during the design process. <br>
 ### *All my html and css code was tested through css and html validators*.
 <br>
 
+![Css code fail](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/css%20code%20fail%20.png)
+<br>
+
+### As you can see above I failed because I used a negative  
+
+![Css code Pass](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/css%20code%20pass.png)
+<br>
+
+### I pass the evalidator by removing negative and added a padding-right 50px; 
+<br>
+
+### *HTML*
+![Css code Pass](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/css%20code%20pass.png)
+<br>
+
 ### *Testing was also done to ensure the games responsiveness across all screen sizes*. 
 <br>
 
-[Play the Game](https://davepeyton.github.io/whack-yoda/)
+![screen sizes](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/screen%20sizes.png)
+<br>
+
+
+
+
 
 
 ### 1. I tested the game through Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
