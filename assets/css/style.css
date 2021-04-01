@@ -1159,9 +1159,9 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 0;
-        left: 130px;
+        margin-left: -180px;
         width: 710px;
-        height: 800px;
+        height: 600px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -1187,8 +1187,8 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 805px;
-        left: 43%;
+        top: 705px;
+        left: 45%;
         width: 140px;
         height: 60px;
         cursor: pointer;
@@ -1196,12 +1196,12 @@ body {
     }
     .startBtn {
         position: relative;
-        top: 935px;
-        margin-left: 35%;
+        top: 835px;
+        margin-left: 37%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 15px 50px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -1225,7 +1225,7 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 70px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 42%;
@@ -1238,10 +1238,10 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 805px;
+        top: 655px;
         width: 180px;
-        margin-left: 50%;
-        font-size: 25px;
+        margin-left: 52%;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
@@ -1379,7 +1379,7 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 360px;
-        left: 0;
+        margin-left: 10px;
         width: 710px;
         height: 800px;
         z-index: 250;
@@ -1497,8 +1497,8 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 80px;
-        padding-right: 20px;
-        width: 600px;
+        padding-right: 50px;
+        width: 590px;
         height: 450px;
         margin: 10px auto;
         z-index: 250;
@@ -1527,9 +1527,9 @@ body {
         position: relative;
         background-color: #f5efef;
         top: 475px;
-        left: 47%;
-        width: 100px;
-        height: 60px;
+        left: 41%;
+        width: 150px;
+        height: 40px;
         cursor: pointer;
         z-index: 200;
     }
@@ -1540,7 +1540,7 @@ body {
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 30px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -1564,10 +1564,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 30px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 42%;
+        margin-left: 38%;
         font-size: 25px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -1605,9 +1605,9 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 150px;
-        padding-right: 30px;
+        padding-right: -10px;
         width: 600px;
-        height: 650px;
+        height: 500px;
         margin: 10px auto;
         z-index: 250;
         display: flex;
@@ -1634,7 +1634,7 @@ body {
     .rule-Btn {
         position: relative;
         background-color: #f1eeee;
-        top: 565px;
+        top: 425px;
         left: 55%;
         width: 140px;
         height: 60px;
@@ -1643,7 +1643,7 @@ body {
     }
     .startBtn {
         position: relative;
-        top: 590px;
+        top: 450px;
         margin-left: 72%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
@@ -1672,10 +1672,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 80px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 55%;
+        margin-left: 51%;
         font-size: 30px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -1685,9 +1685,9 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 550px;
+        top: 410px;
         width: 180px;
-        margin-left: 75%;
+        margin-left: 72%;
         font-size: 25px;
         font-weight: bold;
         text-align: center;
@@ -1699,7 +1699,7 @@ body {
         margin-left: 10px;
         top: 100%;
         width: 100%;
-        height: 110%;
+        height: 125%;
         transition: 0.4s;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -1713,7 +1713,7 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 170px;
-        left: 10px;
+        left: -20px;
         width: 600px;
         height: 650px;
         margin: 10px auto;
@@ -1743,22 +1743,22 @@ body {
         border-radius: 20px;
         background-color: #f5f2f2;
         top: 545px;
-        left: 55%;
-        width: 140px;
-        height: 60px;
+        left: 56%;
+        width: 120px;
+        height: 40px;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
         top: 569px;
-        margin-left: 72%;
+        margin-left: 71%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 30px;
         border-radius: 20px;
-        z-index: 200;
+        z-index: 300;
         cursor: pointer;
         border: none;
         outline: none;
@@ -1780,10 +1780,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 55%;
+        margin-left: 50%;
         font-size: 35px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -1822,9 +1822,9 @@ body {
         position: absolute;
         padding-top: 40px;
         padding-bottom: 0;
-        padding-right: 40px;
+        padding-right: 30px;
         width: 600px;
-        height: 650px;
+        height: 500px;
         z-index: 250;
         display: flex;
         flex-wrap: wrap;
@@ -1850,21 +1850,21 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 689px;
+        top: 539px;
         left: 61%;
-        width: 140px;
-        height: 60px;
+        width: 120px;
+        height: 40px;
         cursor: pointer;
         z-index: 300;
     }
     .startBtn {
         position: relative;
-        top: 710px;
-        margin-left: 80%;
+        top: 560px;
+        margin-left: 77%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 30px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -1888,10 +1888,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 140px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 58%;
+        margin-left: 55%;
         font-size: 35px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -1901,9 +1901,9 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 680px;
+        top: 520px;
         width: 180px;
-        margin-left: 82%;
+        margin-left: 78%;
         font-weight: bold;
         font-size: 25px;
         text-align: center;
@@ -1954,8 +1954,8 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 677px;
-        left: 62%;
+        top: 577px;
+        left: 64%;
         width: 140px;
         height: 60px;
         cursor: pointer;
@@ -1963,12 +1963,12 @@ body {
     }
     .startBtn {
         position: relative;
-        top: 710px;
-        margin-left: 81%;
+        top: 610px;
+        margin-left: 82%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 15px 30px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -2030,9 +2030,9 @@ body {
     .game-play {
         position: absolute;
         padding-bottom: 50px;
-        left: 10px;
+        left: -10px;
         width: 600px;
-        height: 650px;
+        height: 500px;
         margin: 10px auto;
         z-index: 250;
         display: flex;
@@ -2058,21 +2058,21 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 676px;
-        left: 72%;
-        width: 140px;
-        height: 60px;
+        top: 526px;
+        left: 75%;
+        width: 120px;
+        height: 50px;
         cursor: pointer;
         z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 710px;
-        margin-left: 95%;
+        top: 550px;
+        margin-left: 93%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
-        padding: 20px 50px;
+        padding: 10px 30px;
         border-radius: 20px;
         z-index: 200;
         cursor: pointer;
@@ -2096,10 +2096,10 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 70px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 70%;
+        margin-left: 64%;
         font-size: 35px;
         font-weight: 900;
         text-shadow: 0px 0px 0px rgba(192, 187, 187, 0.2);
@@ -2109,7 +2109,7 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 660px;
+        top: 490px;
         width: 180px;
         margin-left: 95%;
         font-weight: bold;
@@ -2123,7 +2123,7 @@ body {
         margin-left: 10px;
         top: 100%;
         width: 100%;
-        height: 98%;
+        height: 110%;
         transition: 0.4s;
         background-repeat: no-repeat;
         background-position: bottom;
@@ -2168,7 +2168,7 @@ body {
         top: 660px;
         width: 180px;
         margin-left: 132%;
-        font-size: 25px;
+        font-size: 35px;
         font-weight: bold;
         text-align: center;
         color: rgb(255 255 255);
@@ -2176,7 +2176,7 @@ body {
     .rule-Btn {
         position: relative;
         background-color: white;
-        top: 664px;
+        top: 764px;
         left: 105%;
         width: 140px;
         height: 60px;
@@ -2185,7 +2185,7 @@ body {
     }
     .startBtn {
         position: relative;
-        top: 710px;
+        top: 810px;
         margin-left: 130%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
@@ -2214,7 +2214,7 @@ body {
         border: 0 solid red;
         color: #0e0e0e;
         position: relative;
-        top: 40px;
+        top: 20px;
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 100%;
@@ -2230,7 +2230,7 @@ body {
         margin-left: 10px;
         top: 100%;
         width: 100%;
-        height: 110%;
+        height: 95%;
         transition: 0.4s;
         background-repeat: no-repeat;
         background-position: bottom;
