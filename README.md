@@ -6,6 +6,23 @@
 
 <br>
 
+# About The Game <br>
+
+
+### In the original game ( Whack a mole) the goal is to whack as many moles as you can within a time frame. 
+<br>
+
+# Game Rules <br>
+### 
+1. This is a challanging one level game.<br>
+
+2. You hve 20 seconds in total to whack as many yoda's as posibile.<br>
+
+3. Every 5 seconds the speed in which yoda pops out of his hole is increased making the game more exciting and challenging.
+
+<br>
+
+
 # The benifts of playing "Whack Yoda". 
 ### Memory Games are a great way of exercising the brain for both adults and kids. They improve brain function such as critical thinking skills, visual perception and coordination. They are also alot of fun to play.
 <br>
@@ -91,15 +108,6 @@ Photoshop was used to create the logo, resizing images and editing photos for th
 Balsamiq was used to create the wireframes during the design process. <br>
 
 
-# My Game <br>
-
-
-### In the original game ( Whack a mole) the goal is to memorise where the mole pops up and then try to whack the mole before it returns beneath the hole. <br> The rules are similar in my game but instead of whacking a mole you are whacking a baby Yoda. 
-# Game Rules <br>
-### There are four levels, each level more challenging the the previous. You have 3 lives to complete each level.
-# Game Play <br>
-### You have to whack as many baby yoda’s as you can within a 10 second time limit. As you progress through the levels the baby yoda’s will pop up faster making each level more challenging than the previous. <br> You have three lives to complete each level. Each time you miss a baby yoda you loose a life. 
-<br>
 
 # Creation Process <br>
 ### I wrote some html to get some structure on the game. <br> 
