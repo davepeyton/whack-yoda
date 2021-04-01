@@ -17,7 +17,9 @@ body {
     height: 100px;
     width: 50px;
     z-index: 300;
-    transform: translate( -50%, -50%);
+    align-items: center;
+    justify-content: center;
+    transform: translate( -280px, -50%);
     cursor: none;
 }
 
