@@ -137,45 +137,67 @@ On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed
 
 # Deployment
 
-## GitHub Pages
+## GitHub<br>
+
+<br>
 
 ### The project was deployed to GitHub Pages using the following steps...
 
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
-The page will automatically refresh.
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+6. The page will automatically refresh.
+7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 <br>
 
 ## Forking the GitHub Repository
-### By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-You should now have a copy of the original repository in your GitHub account.
 <br>
 
-# Making a Local Clone
-### Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-$ git clone 
-Press Enter. Your local clone will be created.
+#### <br>
+1. Log into your GitHub and locate the Repository. <br>
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.<br>
+
+3. You should now have a copy of the original repository in your GitHub account.
 <br>
 
-# Credits
-###
+
+# *Local Deployment*
+
+1. First open VSC and clone the github repository
+<br>
+
+  2. Copy the github repository url and paste it into VSC.
+3. save the VSC file in a local folder on your computer.
+<br>
+
+
+<br>
+
+
+
+
+<br>
+
+
+<br>
+
+# Credits <nr>
+### 
 # Content
-### All content was written by the developer.
+#### All content was written by the developer.
 
-Psychological properties of colours text in the was found here
+<br> 
+
 # Media
-### All Images were created by the developer.
+ ### Yoda images and background image:
+ 
+[Source](https://www.google.com/search?q=yoda&sxsrf=ALeKk01A1GOPvy2tSN6v1aOfC0T4qwS9lw:1617278287382&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjO4smO_9zvAhUDonEKHQAiBioQ_AUoAXoECAEQAw&biw=1440&bih=741#imgrc=nqmf2r0UaOvVjM)
+<br>
+
+ : All images were resized and minipulated to suit this project using photo shop.
+
 # Acknowledgements
-###
+#### Big thanks to my mentor for his guidance throughout this project.
