@@ -18,18 +18,25 @@ const countdownBoard = document.querySelector('.countdown');
 const startBtn = document.querySelector('.startBtn');
 const cursor = document.querySelector('.cursor img');
 
-window.addEventListener('mousemove', function(e) {
-    console.log(e);
+/*
+document.addEventListener('mousemove', function(x) {
+    cursor.style.cssText = 'left: ' + x.clientX + 'px; top: ' + x.clientY + 'px;';
+});*/
 
-
-
-    window.addEventListener('click', () => {
-        cursor.style.animation = 'hit 0.1s ease';
-        setTimeout(() => {
-            cursor.style.removeProperty('animation');
-        }, 100);
-    });
+window.addEventListener("mousemove", (e) => {
+    cursor.style.top = e.pageY + 'px';
+    cursor.style.left = e.pageX + 'px';
 });
+
+
+
+window.addEventListener('click', () => {
+    cursor.style.animation = 'hit 0.1s ease';
+    setTimeout(() => {
+        cursor.style.removeProperty('animation');
+    }, 100);
+});
+
 
 let lastHole;
 let score = 0;

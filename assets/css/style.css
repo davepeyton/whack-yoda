@@ -16,7 +16,7 @@ body {
     position: absolute;
     height: 100px;
     width: 50px;
-    z-index: 2;
+    z-index: 300;
     transform: translate( -50%, -50%);
     cursor: none;
 }
