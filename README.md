@@ -4,12 +4,31 @@
 
 [Play Game here](https://davepeyton.github.io/whack-yoda/)
 
-# User Experience (UX)
+<br>
+
+# The benifts of playing "Whack Yoda". 
+### Memory Games are a great way of exercising the brain for both adults and kids. They improve brain function such as critical thinking skills, visual perception and coordination. They are also alot of fun to play.
+<br>
+
+#  (UX)
 
 ## User stories
-### First Time Visitor Goals
-### Returning Visitor Goals
-### Frequent User Goals
+### First Time Visitor Goals: 
+
+ 
+ 1. As a First Time user, I want to easily understand the purpose of the game.<br>
+
+2. I want to easily navigate through the instructions to learn how to play the game.<br>
+3. I want the game to be enjoyable and not to difficult.
+
+## Returning and Frequent Visitor Goals:
+1. As a Returning user, I want to get keep playing the game and practicing to getter better scores. <br>
+
+2. I want to to better my score everytime I play the game.. <br>
+
+3. I want to finish the game with a faster time.<br>
+
+
 <br>
 
 # Design
