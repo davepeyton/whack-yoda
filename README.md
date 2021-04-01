@@ -16,7 +16,7 @@
 ### 
 1. This is a challanging one level game.<br>
 
-2. You hve 20 seconds in total to whack as many yoda's as posibile.<br>
+2. You have 20 seconds in total to whack as many yoda's as posibile.<br>
 
 3. Every 5 seconds the speed in which yoda pops out of his hole is increased making the game more exciting and challenging.
 
@@ -33,13 +33,13 @@
 ### First Time Visitor Goals: 
 
  
- 1. As a First Time user, I want to easily understand the purpose of the game.<br>
+ 1. As a first time user, I want to easily understand the purpose of the game.<br>
 
 2. I want to easily navigate through the instructions to learn how to play the game.<br>
 3. I want the game to be enjoyable and not to difficult.
 
 ## Returning and Frequent Visitor Goals:
-1. As a Returning user, I want to get keep playing the game and practicing to getter better scores. <br>
+1. As a Returning user, I want to get keep playing the game and get better with practice. <br>
 
 2. I want to to better my score everytime I play the game.. <br>
 
