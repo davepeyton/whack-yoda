@@ -132,7 +132,7 @@ Balsamiq was used to create the wireframes during the design process. <br>
 
 
 # Creation Process <br>
-### *After alot of consideration I decided to create a game as my 2nd milestone project. The "whack a mole" game in particular is one of my favorate games. So I was eager to build one myself. Using html I managed to get some structure on the game. With Css I was able to style th elook of the game and change backgrounds. I used JS mainly for the functionality of the game*.
+### *After alot of consideration I decided to create a game as my 2nd milestone project. The "whack a mole" game in particular is one of my favorate games. So I was eager to build one myself. Using html I managed to get some structure on the game. With Css I was able to style the look of the game and change backgrounds. I used JS mainly for the functionality of the game*.
 <br> 
 
 
@@ -147,6 +147,9 @@ Balsamiq was used to create the wireframes during the design process. <br>
 
 ### *Testing was also done to ensure the games responsiveness across all screen sizes*. 
 <br>
+
+[Play the Game](https://davepeyton.github.io/whack-yoda/)
+
 
 ### 1. I tested the game through Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 <br>
