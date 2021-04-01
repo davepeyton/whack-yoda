@@ -144,12 +144,11 @@ On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed
 ### The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-4. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-5. Under "Source", click the dropdown called "None" and select "Master Branch".
-6. The page will automatically refresh.
-7. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 <br>
 
 ## Forking the GitHub Repository
@@ -158,7 +157,7 @@ On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed
 #### <br>
 1. Log into your GitHub and locate the Repository. <br>
 
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.<br>
+2. At the top of the Repository just above the "Settings" button on the menu, locate the "Fork" button.<br>
 
 3. You should now have a copy of the original repository in your GitHub account.
 <br>
@@ -167,9 +166,7 @@ On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed
 # *Local Deployment*
 
 1. First open VSC and clone the github repository
-<br>
-
-  2. Copy the github repository url and paste it into VSC.
+2. Copy the github repository url and paste it into VSC.
 3. save the VSC file in a local folder on your computer.
 <br>
 
