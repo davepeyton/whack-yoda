@@ -158,7 +158,7 @@ Balsamiq was used to create the wireframes during the design process. <br>
 <br>
 
 ### *HTML*
-![Css code Pass](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/css%20code%20pass.png)
+![HTML code Pass](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/test/html%20pass.png)
 <br>
 
 ### *Testing was also done to ensure the games responsiveness across all screen sizes*. 
