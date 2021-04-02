@@ -26,7 +26,7 @@
 
 <br>
 
-### 4. You can only hit each yoda one time. When you whack Yoda , he's face changes for happy to sad and your score will increment by 1 point each time you whack him.
+### 4. You can only hit each yoda one time. When you whack Yoda , he's face changes from happy to sad and your score will increment by 1 point each time you whack him.
 <br>
 
 ### 5.  Try to better your score every time you play whack yoda.
