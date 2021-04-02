@@ -16,17 +16,20 @@
 ### 
 <br>
 
-### 1. This is a challanging one level game.
+### 1. This is a challanging one level game. 
 <br>
 
 ### 2. Yoda randomly pops out of a hole at random speeds making the game more exciting and challenging.
 <br>
 
-### 3.  You have 20 seconds in total to whack as many yoda's as posibile.
+### 3.  You have 20 seconds in total to whack as many yoda's as posibile. 
 
 <br>
 
-### 4.  Try to better your score every time you play whack yoda.
+### 4. You can only hit each yoda one time. When you whack Yoda , he's face changes for happy to sad and your score will increment by 1 point each time you whack him.
+<br>
+
+### 5.  Try to better your score every time you play whack yoda.
 
 <br>
 
@@ -41,10 +44,10 @@
  ### 2.  Users actively engage with data.
 <br>
 
- ### 3.  To achieve their preferred goals.
+ ### 3.  Users control the game to achieve their goals.
 <br>
 
- ### 4. Users are able to interact with the site and achieve a high score by their specific actions.
+ ### 4. Users are able to interact with the game and achieve a high score by their specific actions.
 
  <br>
 
@@ -101,6 +104,22 @@
 
 
 # Colour Scheme
+<br>
+
+### *The background of this game has multiple colors and characters, making the game visually appealing and challenging*.
+<br>
+
+### *The "Start" button background color is Red (#f30505) and the text is white (#ffffff)*.
+<br>
+
+### *The "How to play" button has a white (#ffffff) background and the text is black (#000000), text is bold to make it more visible*.
+<br>
+
+### *The "Countdown" is white (#ffffff)  and text is bold*.
+<br>
+
+### *The "Score" is black (#000000) and text is bold*.
+<br>
 <br>
 
 # Wireframes
@@ -255,15 +274,6 @@ Balsamiq was used to create the wireframes during the design process. <br>
 
 ### 3. save the VSC file in a local folder on your computer.
 <br>
-
-
-
-
-
-
-
-
-
 <br>
 
 # Credits/Media

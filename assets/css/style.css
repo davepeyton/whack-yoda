@@ -1722,7 +1722,7 @@ body {
         width: 140px;
         height: 60px;
         cursor: pointer;
-        z-index: 200;
+        z-index: 300;
     }
     .startBtn {
         position: relative;
