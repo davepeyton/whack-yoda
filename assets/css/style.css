@@ -10,6 +10,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    cursor: none;
 }
 
 .cursor img {
@@ -317,7 +318,6 @@ body {
         justify-content: center;
         transform: translate( -895px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -537,7 +537,6 @@ body {
         justify-content: center;
         transform: translate( -570px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -650,7 +649,6 @@ body {
         justify-content: center;
         transform: translate( -455px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -763,7 +761,6 @@ body {
         justify-content: center;
         transform: translate( -405px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -876,7 +873,6 @@ body {
         justify-content: center;
         transform: translate( -387px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -989,7 +985,6 @@ body {
         justify-content: center;
         transform: translate( -355px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
@@ -1007,7 +1002,7 @@ body {
 @media (max-width: 1366px) {
     .game-play {
         position: absolute;
-        padding-bottom: 5%;
+        padding-bottom: 15%;
         margin-left: -120px;
         height: 500px;
         z-index: 250;
@@ -1048,7 +1043,7 @@ body {
     .countdown {
         border: 0 solid black;
         position: relative;
-        top: 450px;
+        top: 350px;
         width: 180px;
         margin-left: 50%;
         font-size: 25px;
@@ -1060,23 +1055,23 @@ body {
         position: relative;
         border-radius: 20px;
         background-color: #f5f2f2;
-        top: 480px;
+        top: 380px;
         left: 45%;
         width: 150px;
         height: 40px;
+        z-index: 300;
         cursor: pointer;
-        z-index: 200;
     }
     .startBtn {
         position: relative;
-        top: 555px;
+        top: 455px;
         margin-left: 39%;
         transform: translate(-50%, 0);
         background: rgb(184, 3, 3);
         color: white;
         padding: 5px 20px;
         border-radius: 20px;
-        z-index: 200;
+        z-index: 300;
         cursor: pointer;
         border: none;
         outline: none;
@@ -1107,14 +1102,13 @@ body {
         justify-content: center;
         transform: translate( -375px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
         position: absolute;
-        margin-left: 30px;
+        margin-left: 40px;
         top: 100%;
-        width: 80%;
+        width: 65%;
         height: 100%;
         transition: 0.4s;
         background-repeat: no-repeat;
@@ -1227,7 +1221,6 @@ body {
         justify-content: center;
         transform: translate( -315px, -100px);
         cursor: none;
-        pointer: none;
     }
     .yoda {
         background-image: url('../images/yoda1.png');
