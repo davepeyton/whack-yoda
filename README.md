@@ -12,13 +12,21 @@
 ### In the original game ( Whack a mole) the goal is to whack as many moles as you can within a time frame. 
 <br>
 
-# Game Rules <br>
+# Game Rules
 ### 
-### 1. This is a challanging one level game.<br>
+<br>
 
-### 2. You have 20 seconds in total to whack as many yoda's as posibile.<br>
+### 1. This is a challanging one level game.
+<br>
 
-### 3. Every 5 seconds the speed in which yoda pops out of his hole is increased making the game more exciting and challenging.
+### 2. Yoda randomly pops out of a hole at random speeds making the game more exciting and challenging.
+<br>
+
+### 3.  You have 20 seconds in total to whack as many yoda's as posibile.
+
+<br>
+
+### 4.  Try to better your score every time you play whack yoda.
 
 <br>
 
@@ -96,6 +104,12 @@
 <br>
 
 # Wireframes
+<br>
+
+### The game layout is the same across all platforms.
+<br>
+
+![screen sizes](https://raw.githubusercontent.com/davepeyton/whack-yoda/master/assets/images/Game%20wireframe.png)
 <br>
 
 
